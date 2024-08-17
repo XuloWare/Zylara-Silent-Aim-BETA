@@ -31,5 +31,4 @@ getgenv().Zylara = {
             ['Transparency'] = 0.07
         },
     },
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XuloWare/Zylara-Source/main/Source?token=GHSAT0AAAAAACV6SKCPEROUUKWC65GKMPPMZWBFEKA")) ()
+}

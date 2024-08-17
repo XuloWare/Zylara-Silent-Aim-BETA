@@ -1,35 +1,35 @@
 getgenv().Zylara = {
-    KOCheck = true,
-    SilentAim = {
-        Enabled = true,
-        Prediction = 0.122,
-        Part = "HumanoidRootPart",
-        EnableJumpPart = false,
-        JumpPart = "HumanoidRootPart",
-        SyncCamlock = true,
-        FieldOfView = {
-            Visible = true,
-            Color = Color3.fromRGB(255, 255, 255),
-            Radius = 600,
-            Transparency = 0.07
-        }
+    ['KOCheck'] = true,
+    ['Silent Aim'] = {
+        ['Enabled'] = true,
+        ['Prediction'] = 0.122,
+        ['Part'] = "HumanoidRootPart",
+        ['EnableJumpPart'] = true,
+        ['JumpPart'] = "Head",
+        ['Sync Camlock'] = true,
+        ['Field Of View'] = {
+            ['Visible'] = true,
+            ['Color'] = Color3.new(255, 255, 255),
+            ['Radius'] = 180,
+            ['Transparency'] = 0.07
+        },
     },
-    Camlock = {
-        Enabled = true,
-        Keybind = "E",
-        Prediction = 0.122,
-        Part = "HumanoidRootPart",
-        Key = "Q",
-        EnableJumpPart = true,
-        JumpPart = "HumanoidRootPart",
-        Easing = Enum.EasingStyle.Exponential,
-        Smoothness = 0.06,
-        FieldOfView = {
-            Visible = false,
-            Color = Color3.fromRGB(255, 255, 255),
-            Radius = 1000,
-            Transparency = 0.07
-        }
-    }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XuloWare/Zylara-Silent-Aim-BETA/main/Source?token=GHSAT0AAAAAACV6SKCOX3YWIWZVCEE5RZ2WZWBEDRQ")) ()
+    ['Camlock'] = {
+        ['Enabled'] = true,
+        ['Keybind'] = "C",
+        ['Prediction'] = 0.122,
+        ['Part'] = "HumanoidRootPart",
+        ['Key'] = "Q",
+        ['EnableJumpPart'] = true,
+        ['JumpPart'] = "Head",
+        ['Easing'] = Enum.EasingStyle.Exponential,
+        ['Smoothness'] = 0.04,
+        ['Field Of View'] = {
+            ['Visible'] = true,
+            ['Color'] = Color3.new(255, 255, 255),
+            ['Radius'] = 90,
+            ['Transparency'] = 0.07
+        },
+    },
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XuloWare/Zylara-Source/main/Source?token=GHSAT0AAAAAACV6SKCOPZ43K7DZIAXFVQ4UZWBEUIQ")) ()
